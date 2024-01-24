@@ -1,5 +1,5 @@
 
-const food = ["Rice", "Beans", "Eba"]
+const food = ["Rice", "Bean", "Eba"]
 
 food[2] = "Amala";
 
