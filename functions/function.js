@@ -3,7 +3,7 @@ function add(a, b) {
     return a + b
 }
 
-let x = add(2,3)
+let x = add(4,3)
 
 console.log(x);
 
