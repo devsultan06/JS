@@ -3,7 +3,7 @@ console.log(typeof "Hello");
 
 console.log(typeof 2);
 
-const car = ["Benz", "Toyota"]
+const car = ["Bens", "Toyota"]
 
 console.log(typeof car);
 
