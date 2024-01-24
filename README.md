@@ -1,1 +1,1 @@
-# JS Takeaways
+# JS Tutorial
