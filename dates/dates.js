@@ -45,4 +45,4 @@ console.log(g);
 
 console.log(h);
 
-console.log(year, month, hour, day, dateof);
+console.log(date, year, month, hour, day, dateof);
