@@ -25,7 +25,7 @@ const hun = nos.map((lol) => {
 
 console.log(hun);
 
-const result = nos.forEach((no) => {
+const result = nos.forEach((no) => {   
     console.log(no);
 })
 
