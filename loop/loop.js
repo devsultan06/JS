@@ -24,7 +24,7 @@ for (const y in details) {
     console.log(details[y]);
 }
 
-const lang = "Java"
+const lang = "Jav"
 
 for (const z of lang) {
     console.log(z);
