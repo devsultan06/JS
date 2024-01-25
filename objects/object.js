@@ -1,7 +1,7 @@
 
 let details = {
     name: "Sultan",
-    age: 17,
+    age: 18,
     school: "UI",
     food: "Rice",
     fullname: function () {
