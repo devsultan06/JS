@@ -23,7 +23,7 @@ console.log(n);
 
 let lang = "Javascript "
 
-console.log(lang.slice(0, 4));
+console.log(lang.slice(0, 3));
 
 console.log(lang.toLowerCase());
 
