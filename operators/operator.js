@@ -32,7 +32,7 @@ let num = 5 ** 2 ;
 
 console.log(num);
 
-let num2 = 5 % 2
+let num2 = 5 % 3
 
 console.log(num2);
 
