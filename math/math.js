@@ -11,7 +11,7 @@ const ceil = Math.ceil(num)
 
 const trunc = Math.trunc(num)
 
-const power = Math.pow(2, 3)
+const power = Math.pow(2, 4)
 
 const sqr = Math.sqrt(num)
 
