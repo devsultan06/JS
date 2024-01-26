@@ -15,3 +15,11 @@ const details = {
 console.log(typeof details);
 
 console.log(details.name);
+
+console.log(typeof new Date());
+
+console.log(typeof myCar);
+
+console.log(typeof true);
+
+console.log(car instanceof Array);
