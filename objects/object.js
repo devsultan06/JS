@@ -23,13 +23,17 @@ let school = {
   name: "Vivekananda School",
   location: "Delhi",
   established: "1971",
+  engine: {
+    name: "Camry",
+    age: 30,
+  },
+  numbers: [1, 3, 6],
   displayInfo: function () {
-    console.log(`${this.name} was established in ${this.established} at ${this.location}`);
+    console.log(
+      `${this.name} was established in ${this.established} at ${this.location}`
+    );
   },
 };
-
-
-
 
 console.log(details);
 
@@ -44,3 +48,7 @@ console.log(info[0].lvl);
 console.log(info[1].name);
 
 console.log(school.displayInfo());
+
+console.log(school.engine.name);
+
+console.log(school.numbers[2]);
