@@ -41,3 +41,13 @@ const total = nos.reduce((x, y) => {
 
 console.log(total);
 
+
+
+const nums = [2,3,0,5,9,10,2]
+
+const sort = nums.sort((a,b) => {
+    return a-b
+})
+
+
+console.log(sort);

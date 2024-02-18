@@ -35,6 +35,13 @@ let school = {
   },
 };
 
+const car = [
+  [1,2],
+  [5,6]
+]
+
+console.log(car[1][1]);
+
 console.log(details);
 
 console.log(details.name);
