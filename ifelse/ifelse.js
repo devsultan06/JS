@@ -18,3 +18,8 @@ if (day == 0) {
 } else if (day == 6) {
   console.log("Saturday");
 }
+
+let company = "Netscape"
+
+company == "Netscape" ? console.log("Right!") : console.log("Wrong.");
+
