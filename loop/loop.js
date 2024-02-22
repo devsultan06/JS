@@ -34,7 +34,7 @@ for (const z of lang) {
 const car = ["BMW", "Volvo", "Saab", "Ford"];
 let i = 0;
 
-while (i< 4) {
+while (i< car.length) {
     console.log(car[i]);
     i++
 }
