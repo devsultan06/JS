@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+div.box {
+  display: flex;
+  gap: 1rem;
+}
+
+.image {
+  height: 80vh;
+  color: white;
+  cursor: pointer;
+  width: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 55px;
+  position: relative;
+  margin: 5px;
+  transition: 0.5s ease-in;
+}
+
+.image h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  font-size: 24px;
+  opacity: 0;
+}
+
+.image.active {
+  width: 50vh;
+}
+
+.image.active h3 {
+  opacity: 1;
+}
+
+@media (max-width: 620px) {
+  .image:nth-child(4),
+  .image:nth-child(5) {
+    display: none;
+  }
+}
