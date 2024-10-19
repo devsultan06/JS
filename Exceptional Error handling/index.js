@@ -1,6 +1,6 @@
 const url = "https://jsonplaceholder.typicode.com/todos/1";
 
-const fetchError = async (url) => {
+const fetchData = async (url) => {
   try {
     const response = await fetch(url);
     const data = await response.json();
@@ -12,4 +12,4 @@ const fetchError = async (url) => {
   }
 };
 
-fetchError(url);
+fetchData(url);
