@@ -29,7 +29,7 @@ function getFactorial(n) {
   return n * getFactorial(n - 1);
 }
 
-let n = 3;
+let n = 100;
 
 let result = getFactorial(n);
 
